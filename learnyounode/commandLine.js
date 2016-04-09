@@ -1,4 +1,4 @@
-// commandLine.js
+// cmdlineargs.js
 
 var sum = 0
 // you run this exercise as node commandLine.js arg1 arg2...
