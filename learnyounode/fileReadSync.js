@@ -17,5 +17,5 @@ var data = fs.readFileSync(process.argv[2].toString())
 // split(x) splits the string using the marker 'x' and
 // fills the resulting pieces in an array whose length
 // is obtained by .length()
-var num_lines = data.toString().split('\n').length - 1
+var num_lines = data.split('\n').length - 1
 console.log(num_lines)
